@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+/* NAV */
+nav {
+  display: flex;
+  justify-content: space-between;
+  background: #68aa3c;
+  padding: 15px;
+}
+
+.logo {
+  color: rgb(29, 26, 26);
+}
+
+nav ul {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+}
+
+nav a {
+  color: rgb(16, 13, 13);
+  text-decoration: none;
+}
+
+.donate-btn {
+  background: #ae4119;
+  padding: 8px 15px;
+  border-radius: 20px;
+}
+
+/* HERO */
+.hero {
+  background: linear-gradient(to right, #2c7be5, #00c6ff);
+  color: rgb(219, 212, 212);
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero button {
+  background: #ac2424;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 20px;
+  color: rgb(212, 195, 195);
+}
+
+/* DASHBOARD */
+.dashboard {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
+}
+
+.card {
+  background: #09cef6;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* SECTIONS */
+section {
+  padding: 40px;
+  text-align: center;
+}
+
+.highlight {
+  color: rgb(206, 83, 83);
+  font-weight: bold;
+}
+
+/* GALLERY */
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+}
+
+.gallery img{
+    width: 250px;
+    height: 250px;
+
+    object-fit: cover;
+
+    border-radius: 12px;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+
+    transition: 0.3s;
+}
+
+.gallery img:hover{
+    transform: scale(1.05);
+}
+
+/* DONATE */
+.donate {
+  background: #ff6b35;
+  color: white;
+}
+
+.urgent {
+  font-weight: bold;
+}
+
+/* FOOTER */
+footer {
+  background: #222;
+  color: white;
+  padding: 10px;
+}
+
+/* TIKTOK BUTTON */
+.social-btn {
+  display: inline-block;
+  background: #bdb6b6;
+  color: rgb(17, 19, 18);
+  padding: 12px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  margin: 10px;
+}
